@@ -70,7 +70,15 @@ cmake -G "Xcode" --config Debug "-DCMAKE_BUILD_TYPE=Debug" -DIO2D_DEFAULT=COREGR
 open io2d.xcodeproj
 ```
 
+<p align="center">
+    <img src="images/build.gif" width="820" height="464" /> 
+</p>
+
 * In Xcode,  set the active scheme to **ALL_BUILD** and click "Build and then run the current scheme" button and then change the scheme to **install** and click the same button.
+
+<p align="center">
+    <img src="images/xcode-proj.gif" width="820" height="464" /> 
+</p>
 
 > **Note**: IO2D is now built from the binary sources and will now be ready to use inside the project.
 
@@ -87,6 +95,10 @@ cmake ..
 make
 ```
 
+<p align="center">
+    <img src="images/cmake-make.gif" width="820" height="464" /> 
+</p>
+
 ### Running
 The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
 ```
@@ -96,3 +108,7 @@ Or to specify a map file:
 ```
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
+
+<p align="center">
+    <img src="images/run-project.gif" width="820" height="464" /> 
+</p>
